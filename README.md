@@ -12,18 +12,20 @@ This project aims to build a reliable classification model with **high recall**,
 
 ## 📊 Dataset
 The dataset contains clinical and diagnostic features such as:
-- Age
-- Sex
-- Chest pain type
-- Blood pressure
-- Cholesterol
-- ECG results
-- Maximum heart rate
-- Exercise-induced angina
-- Oldpeak
-- Thalassemia
-- And more
-
+- age : Age in years : Continuous
+- sex : 1 = male, 0 = female : Binary
+- cp : Chest pain type (0–3) : Categorical
+- trestbps : Resting blood pressure : Continuous
+- chol : Serum cholesterol : Continuous
+- fbs : Fasting blood sugar >120 : Binary
+- restecg : Resting ECG results : Categorical
+- thalach : Max heart rate achieved : Continuous
+- exang : Exercise-induced angina : Binary
+- oldpeak : ST depression : Continuous
+- slope : ST segment slope : Ordinal
+- ca : Major vessels colored : Discrete
+- thal : Thalassemia : Categorical
+- target : Heart disease (1/0) : Binary
 ---
 
 ## 🔍 Data Cleaning
